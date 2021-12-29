@@ -1,0 +1,7 @@
+.delete {
+    position: absolute;
+    left: 78%;
+}
+.delete:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#orderType {
+    margin-left: 20px !important;
+}
+#orderMe {
+    padding-right: 60px !important;
+    padding-bottom: 8.5px !important;
+    transform: translateY(1px);
+} 
+
+@media only screen and (max-width: 850px) {
+    #orderType {
+        display: none !important;
+    }
+}

@@ -1,0 +1,107 @@
+#order{
+    margin-left: 20px !important;
+    height: 32px;
+}
+
+input:focus {
+    outline: none
+}
+
+#dateLabel {
+    display: inline-block;
+    margin-left: -17px;
+    margin-right: 5px;
+}
+
+#customerField {
+    margin-left: 8.5px;
+}
+
+#formControl {
+    width: 80%;
+}
+
+#orderType22 {
+    display: inline-block;
+    margin-left: -2px;
+    margin-right: 5px;
+}
+
+.extraSpaces {
+    margin-bottom: 40px;
+}
+
+#marginAbove {
+    margin-top: 30px;
+}
+
+#selection {
+    border: 1px solid rgb(163, 157, 157);
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.saveDraft {
+    display: inline-block;
+    color: #6384ba;
+    cursor: pointer;
+}
+
+#saved {
+    display: inline-block;
+    color: #6384ba;
+    cursor: pointer;
+}
+
+.saveDraft:hover {
+    color: blue;
+    text-decoration: underline;
+}
+#saved:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#notification {
+    background-color: red;
+    display: inline-block;
+    transform: translateY(-12px);
+    border: 1px solid white;
+    width: 20px;
+    padding-left: 9px;
+    border-radius: 2px;
+}
+
+#savedOrders {
+    position: absolute;
+    width: 10%;
+    background-color: yellow;
+    border-radius: 3%;
+    
+}
+
+.listOfDrafts {
+    background-color: white;
+    position: absolute;
+    left: 95%;
+    top: 75%;
+    width: 160px;
+    min-height: 120px;
+    max-height: 250px;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+/*Hide scrollbar from chrome, safari and Opera */
+.listOfDrafts::-webkit-scrollbar {
+    display: none;
+}
+
+.listOfDrafts {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
