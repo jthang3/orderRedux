@@ -67,7 +67,7 @@ input:focus {
 }
 
 #notification {
-    background-color: red;
+   font-weight: bold;
     display: inline-block;
     transform: translateY(-12px);
     border: 1px solid white;
